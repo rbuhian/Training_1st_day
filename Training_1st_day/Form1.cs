@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Training_1st_day
@@ -23,6 +16,10 @@ namespace Training_1st_day
             if (MessageBox.Show(name, "test", MessageBoxButtons.YesNo, MessageBoxIcon.Error) == DialogResult.Yes)
             {
                 MessageBox.Show("Success");
+            }
+            else
+            {
+                MessageBox.Show("Failed");
             };
         }
 
