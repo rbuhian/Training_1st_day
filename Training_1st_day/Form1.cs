@@ -33,5 +33,11 @@ namespace Training_1st_day
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form frm2 = new Form2();
+            frm2.Show();
+        }
     }
 }
