@@ -38,6 +38,7 @@
             this.tsmExit = new System.Windows.Forms.ToolStripMenuItem();
             this.menu1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -125,11 +126,21 @@
             this.menu2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.menu2ToolStripMenuItem.Text = "Menu 2";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(243, 140);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Show Name";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(490, 187);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.cmdShow);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
@@ -158,6 +169,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmExit;
         private System.Windows.Forms.ToolStripMenuItem menu1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menu2ToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 

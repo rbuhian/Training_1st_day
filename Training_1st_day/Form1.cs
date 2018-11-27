@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
+/*This is my first application*/
 namespace Training_1st_day
 {
     public partial class Form1 : Form
